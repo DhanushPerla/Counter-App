@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+#Counter{
+    font-size: 2em;
+    margin: 20px;
+}
+.Counter-Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    margin: 20px;
+}
+button{
+    padding:10px 20px;
+    font: size 1em;
+    margin: 5px;
+    cursor: pointer;
+    border:none;
+    border-radius: 8px;
+    background-color: rgb(15, 105, 15);
+    color: white;
+    transition: background-color 0.3s ease ;
+}
+button:hover{
+    background-color: rgb(9, 78, 9);
+}
